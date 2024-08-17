@@ -28,7 +28,6 @@ This project consists of two main components:
 ### Frontend (Angular)
 - Angular
 - TypeScript
-- RxJS
 - Angular Material (for UI components)
 - Firebase (for frontend hosting)
 
