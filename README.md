@@ -6,61 +6,38 @@ Anime Mash is a fun, interactive web application inspired by Facemash, but focus
 
 ![Example GIF](exmaple.gif)
 
+## Project Repositories
+
+This project consists of two main components:
+
+1. [Frontend (AllStar-WebSite)](https://github.com/MaouStan/AllStar-WebSite)
+2. [Backend API (AllStar-API)](https://github.com/MaouStan/AllStar-API)
+
 ## Features
 
 - Head-to-head comparisons of anime characters
 - Voting system to choose the best character
 - Leaderboard of top-rated characters
 - Responsive design for both desktop and mobile devices
+- User authentication and management
+- Image upload and retrieval
+- Ranking system based on user votes
 
 ## Technology Stack
 
-This project is built using Angular, showcasing various features and best practices of the framework. It serves as a learning resource for Angular development.
-
+### Frontend (Angular)
 - Angular
 - TypeScript
 - RxJS
 - Angular Material (for UI components)
-- Firebase (for backend and hosting)
+- Firebase (for frontend hosting)
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or later)
-- npm (v6 or later)
-- Angular CLI
-
-### Installation
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/MaouStan/AllStar-WebSite
-   ```
-
-2. Navigate to the project directory:
-   ```
-   cd anime-mash
-   ```
-
-3. Install dependencies:
-   ```
-   npm install
-   ```
-
-4. Start the development server:
-   ```
-   ng serve
-   ```
-
-5. Open your browser and visit `http://localhost:4200`
-
-## Project Structure
-
-- `src/app/components`: Angular components
-- `src/app/services`: Services for data management and API calls
-- `src/app/models`: TypeScript interfaces and classes
-- `src/assets`: Static assets like images
+### Backend (Node.js)
+- Node.js
+- Express.js
+- MySQL
+- Firebase Storage
+- TypeScript
 
 ## License
 
